@@ -1,6 +1,6 @@
 <?php
 
-namespace SwPlan\Model;
+namespace SwPlan\System;
 
 abstract class AbstractModel
 {

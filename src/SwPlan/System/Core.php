@@ -26,7 +26,7 @@ class Core
     
     protected function getUrlFromServer()
     {
-        $this->_url = $_GET['key'];
+        $this->_url = isset($_GET['key']) ? $_GET['key'] : 'index/index/' ;
     }
     
     protected function setExplode()
